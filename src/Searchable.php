@@ -447,7 +447,6 @@ class Searchable extends DataExtension
 
         $this->updateDependentClasses();
 
-        Versioned::set_reading_mode($reading_mode);
     }
 
     /**
